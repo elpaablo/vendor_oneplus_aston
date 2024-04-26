@@ -481,5 +481,5 @@
       "capture_latency_range":"100,7000"
     }
   ],
-  "extension_black_list":["com.snapchat.android", "com.tencent.mm"]
+  "extension_black_list":["com.tencent.mm"]
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <algo>
-    <version>2024010201</version>
+    <version>2024011901</version>
     <device id = "0">
         <panel id = "0" name="tp/23801/FW_S3910_BOE_HBP.img">
             <modules id="AlgoParam" enable="true" hint="">
@@ -161,6 +161,36 @@
                 <param name="colCompensate" type="u32" hint="">
                     <value>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-40,-60,-60,-40,0,0,0,0</value>
                     <range>0,1000</range>
+                </param>
+
+                <param name="palmGraySizeThd" type="u32" hint="">
+                    <value>43</value>
+                    <range>0,300</range>
+                </param>
+
+                <param name="palmBigGraySizeThd" type="u32" hint="">
+                    <value>52</value>
+                    <range>0,300</range>
+                </param>
+
+                <param name="palmPosNodeThd" type="u32" hint="">
+                    <value>140</value>
+                    <range>0,1000</range>
+                </param>
+
+                <param name="palmNegNodeThd" type="u32" hint="">
+                    <value>140</value>
+                    <range>0,1000</range>
+                </param>
+
+                <param name="palmSumNodeThd" type="u32" hint="">
+                    <value>180</value>
+                    <range>0,1500</range>
+                </param>
+
+                <param name="moveLockNoGameMode" type="u32" hint="">
+                    <value>6</value>
+                    <range>0,255</range>
                 </param>
 
             </modules>
