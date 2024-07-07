@@ -178,9 +178,10 @@ Pixelworks Inc. Company Confidential Strictly Private-->
 
 <!--game 3 yuanshen-->
 <PxlwSuperResolutionRateList Id="2" Game="3">
+	<PxlwSuperResolution Input="734x1614" Output="1264x2780" Count="6">10,12,7,10,6,2</PxlwSuperResolution>
 	<PxlwSuperResolution Input="796x1780" Output="1264x2780" Count="6">10,12,7,10,6,2</PxlwSuperResolution>
 	<PxlwSuperResolution Input="812x1780" Output="1264x2780" Count="6">10,12,7,10,6,2</PxlwSuperResolution>
-        <PxlwSuperResolution Input="872x1920" Output="1264x2780" Count="6">10,12,7,10,6,2</PxlwSuperResolution>
+	<PxlwSuperResolution Input="872x1920" Output="1264x2780" Count="6">10,12,7,10,6,2</PxlwSuperResolution>
 	<PxlwSuperResolution Input="860x1920" Output="1264x2780" Count="6">10,12,7,10,6,2</PxlwSuperResolution>
 	<PxlwSuperResolution Input="1080x2376" Output="1264x2780" Count="6">10,12,7,10,6,2</PxlwSuperResolution>
 	<PxlwSuperResolution Input="1264x2780" Output="1264x2780" Count="6">10,12,7,10,6,2</PxlwSuperResolution>
