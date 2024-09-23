@@ -203,5 +203,5 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/aston/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so
 
 PRODUCT_PACKAGES += \
-    android.hardware.ir-service \
-    manifest_touch_aidl
+    android.hardware.ir-service.xml \
+    manifest_touch_aidl.xml
