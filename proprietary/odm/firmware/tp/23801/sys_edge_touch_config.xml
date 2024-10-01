@@ -1,5 +1,5 @@
 <filter-conf>
-    <version>2023121601</version>
+    <version>2024072518</version>
     <isOpen>1</isOpen>
     <filter-name>sys_edge_touch_config</filter-name>
 
@@ -69,6 +69,7 @@
 				<!-- 配置王者荣耀、英雄联盟、和平精英顶部抑制参数 -->
 				<command name="large_hor_top_x_width"	value="mod para_V2 large_hor_long_top_width:3632"/>
 				<command name="large_hor_top_y_height"		value="mod para_V2 large_hor_long_top_height:3632"/>
+				<command name="normal_tap_max_time_ms"		value="mod para_V2 normal_tap_max_time_ms:350"/>
 			</default>
 
 			<!--所有修改均为增量修改，所有增量修改都是基于上面的default配置，包括各个package里面的default和activity -->
@@ -78,12 +79,15 @@
 					<item name="com.tencent.lolm" /> <!--英雄联盟-->
 					<item name="com.tencent.tmgp.sgame" /> <!--王者荣耀-->
 					<item name="com.tencent.tmgp.pubgmhd" /> <!--和平精英-->
+					<item name="com.tencent.mf.uam" /> <!--暗区突围-->
+					<item name="com.pubg.imobile" /> <!--BGMI-->
 				</pkg_list>
 				<!--包名列表中，某个包的默认配置，基于外层的default配置增量修改，如果配置了某个包名的场景，必须配置一个如下对应的默认配置 -->
 				<default>
 				<!--王者荣耀、英雄联盟顶部抑制参数 -->
 					<command name="large_hor_top_x_width"	value="mod para_V2 large_hor_long_top_width:1600"/>
 					<command name="large_hor_top_y_height"		value="mod para_V2 large_hor_long_top_height:1920"/>
+					<command name="normal_tap_max_time_ms"		value="mod para_V2 normal_tap_max_time_ms:500"/>
 				</default>
 			</packages>
 			<default>
