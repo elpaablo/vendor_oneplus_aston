@@ -222,6 +222,11 @@
 },
 
 {
+  "Key": "TURBO_HDR_TELE_SIZE_SELECT_ENABLE",
+  "Value": "1"
+},
+
+{
   "Key": "SENSOR_BLACK_LEVEL_ISDYNAMIC",
   "Value": "1"
 },

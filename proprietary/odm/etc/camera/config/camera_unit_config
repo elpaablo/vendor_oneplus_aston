@@ -460,20 +460,6 @@
   },
   "cameraExtensionConfig":[
     {
-      "type":4,
-      "cameraId":"0",
-      "support_ratio":"standard,square,full,16_9",
-      "format":"256,35",
-      "capture_latency_range":"100,7000"
-    },
-    {
-      "type":4,
-      "cameraId":"1",
-      "support_ratio":"standard,square,full,16_9",
-      "format":"256,35",
-      "capture_latency_range":"100,7000"
-    },
-    {
       "type":2,
       "cameraId":"0",
       "support_ratio":"standard",

@@ -1500,6 +1500,25 @@
                 }
               }
             ]
+          },
+          {
+            "defaultResult":{
+              "turboRawScene":"APS_TURBORAW_MODE_NIGHT"
+            },
+            "plan":[
+              {
+                "planCondition":{
+                  "eq":[
+                    "paramsHolder->night_se_enable->1",
+                    0
+                  ]
+                },
+                "planResult":{
+                  "turboRawScene":"APS_TURBORAW_MODE_DAYTIME",
+                  "bracketMode":"APS_BRACKET_TR_ZSL_PSL_STATIC"
+                }
+              }
+            ]
           }
         ],
         "childMode":"ALGO_PARAM_TURBO_HDR_NIGHT"
@@ -3971,14 +3990,22 @@
             ]
           },
           {
-            "defaultResult":{},
+            "defaultResult":{
+              "nightSeTrigger":0
+            },
             "plan":[
               {
                 "planCondition":{
-                  "eq":[
-                    "captureMode",
-                    "APS_CAPMODE_REAR_NORMAL"
-                  ]
+                  "or":{
+                    "eq":[
+                      "captureMode",
+                      "APS_CAPMODE_REAR_NORMAL"
+                    ],
+                    "eq1":[
+                      "captureMode",
+                      "APS_CAPMODE_FRONT_NORMAL"
+                    ]
+                  }
                 },
                 "planResult":{
                   "nightSeTrigger":1

@@ -153,6 +153,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.yuvsr.insensorzoombasicratio",
+  "Type": "Float",
+  "Count": "1",
+  "Value": "1.0"
+},
+
+{
   "VendorTag": "com.oplus.aps.params.thr.bokehhdr",
   "Type": "Int32",
   "Count": "3",
@@ -1177,6 +1184,13 @@
 },
 
 {
+   "VendorTag": "com.oplus.aps.params.isIntervalshot.threshold",
+   "Type": "Int32",
+   "Count": "1",
+   "Value": "50"
+},
+
+{
   "VendorTag": "com.oplus.aps.params.availmemory.trigger.8G",
   "Type": "Int32",
   "Count": "2",
@@ -1196,8 +1210,15 @@
   "VendorTag": "com.oplus.aps.params.availmemory.trigger",
   "Type": "Int32",
   "Count": "2",
-  "Value": "4200,2200",
+  "Value": "4200,2560",
   "Comment": ""
+},
+
+{
+  "VendorTag": "com.ocs.camera.ipu.meishe.filter.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
 }
 ]
 }
